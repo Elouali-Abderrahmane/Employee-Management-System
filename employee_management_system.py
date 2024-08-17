@@ -214,20 +214,3 @@ class Manager(Employee):
 
 
 
-employee1 = Employee("Elouali", 27, "Software", "12345", "+212641220699", "1423899393")
-
-# print(employee1)
-
-# print(AllEmployee.employees_list())
-
-
-
-EmployeeFileHandler.read_and_add_to_AllEmployees("employees_data_enhanced.csv")
-
-
-
-
-manager = Manager(3 ,"Elboss", 27, "Manager", "0011", "+212641220699", "1423899393")
-
-manager.fired_employee_by_id("12345")
-print(employee1.hourly_rate)
